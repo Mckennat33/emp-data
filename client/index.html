@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
     <h1>Employee Form</h1>
-    <form action="">
-        
+    <form action="" class="emp-form" onsubmit="handleForm(event)"> 
+        <ul class="form-list">
+            <li>
+                Name:<input type="text" id="name"> <br>
+            </li>
+            <li>
+                Employee ID: <input type="text" id="id"> <br>
+            </li>
+            <li>
+                Title: <input type="text" id="title"> <br>
+            </li>
+            <li>
+                Email: <input type="text" id="email"> <br>
+            </li>
+            <li>
+                Hire Date: <input type="date" id="hire-date"> <br>
+            </li>
+            <li>
+                <input type="submit" value="Submit">
+            </li>
+        </ul>
     </form>
+    
+    <script src="index.js"></script>
 </body>
 </html>
