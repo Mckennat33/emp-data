@@ -6,6 +6,10 @@ h1 {
     text-align: center;
 }
 
+.nav-bar {
+    list-style-type: none;
+}
+
 .emp-form {
     display: flex;
     justify-content: center;
